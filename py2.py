@@ -4,8 +4,7 @@
 
 '''
 PyMarshal - Compile Python Script
-This project was created by Dfv47 with Black Coder Crush. 
-Copyright 12 - 07 - 2k19 @m_d4fv
+This project was created by Rudal-XD. 
 '''
 
 try:
@@ -28,18 +27,18 @@ br='\033[91;7m'
 
 bannerpy3 = """
          {}___ 
-{} ___ _  |{}_  {}{}| {}Author  {}:{} Dfv47
+{} ___ _  |{}_  {}{}| {}Author  {}:{} Rudal-XD
 {}| . | | |{}_  {}{}| {}Code    {}:{} Python
 {}|  _|_  |{}___{}{}| {}Version {}:{} v.5.0
-{}|_| |___| {}*{} https://github.com/md4fv  
+{}|_| |___| {}*{} https://github.com/Rudal-XD  
 """.format(r,y,br,n,y,w,r,w,y,br,n,y,w,r,w,y,br,n,y,w,r,w,y,r,a)
 
 '''
-Coded  : @m_d4fv
-Author : Dfv47
-Team   : Black Coder Crush
-Phone  : 6282223108828
-Email  : daffamfthhsn21@gmail.com
+Coded  : Rudal-XD
+Author : Mikaz
+Team   : -
+Phone  : 6287842100781
+Email  : bangsaind123@gmail.com
 Thanks : ZoneExploiter & CytoXploit
 '''
 
@@ -65,8 +64,8 @@ else:
         sys.exit()
 
 fileout = open(o + 'enc.py', 'w')
-fileout.write('#Compiled By DfvTools\n')
-fileout.write('#https://github.com/md4fv\n')
+fileout.write('#Compiled By Rudal-XD\n')
+fileout.write('#https://github.com/Rudal-XD\n')
 fileout.write('import marshal\n')
 fileout.write('exec(marshal.loads(' + repr(data) + '))')
 fileout.close()
